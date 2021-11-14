@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonas Franke - Home</title>
+    <title id="title">Jonas Franke - Home</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css"></link>
+
+    <script src="script.js"></script>
 </head>
 <body>
 
     <nav class="navbar">
         <ul class="navbar-nav">
           <li class="logo">
-            <a href="#top" class="nav-link">
+            <a href="#top" class="nav-link" onclick="renameTitle('Home')">
               <span class="link-text logo-text">Jonas Franke</span>
               <svg
                 aria-hidden="true"
@@ -45,7 +47,7 @@
           </li>
     
           <li class="nav-item">
-            <a href="#contact" class="nav-link">
+            <a href="#contact" class="nav-link" onclick="renameTitle('Kontakt')">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -74,7 +76,7 @@
           </li>
     
           <li class="nav-item">
-            <a href="#imp" class="nav-link">
+            <a href="#imp" class="nav-link" onclick="renameTitle('Impressum')">
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -108,6 +110,7 @@
     <main>
         <a name="top"></a>
         <section class="light_blue">
+          <h1>Jonas Franke</h1>
           <p>Hi</p>
         </section>
         <div class="spacer layer1"></div>
