@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: jonasfranke.github.io
-Token: 53ab9b94186d1f34df31d37c68e03a9a631caddd152af6edb6f89f2249c20eaa
