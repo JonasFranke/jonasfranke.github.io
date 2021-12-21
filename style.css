@@ -236,3 +236,14 @@
   section {
     display: grid;
   }
+
+  .fah_img {
+    margin-left: 6rem;
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 1%;
+  }
+
+  .fah {
+    margin-top: 0%;
+  }
